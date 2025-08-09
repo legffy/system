@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                           // Modern JS output
+    "module": "CommonJS",                      // Needed for Node.js
+    "rootDir": "./src",                        // Your TS files
+    "outDir": "./dist",                        // Where compiled JS goes
+    "esModuleInterop": true,                   // Allows default-style imports
+    "strict": true,                            // Catches bugs early
+    "skipLibCheck": true,                      // Faster compile
+    "forceConsistentCasingInFileNames": true   // OS-level case safety
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
